@@ -29,5 +29,14 @@ import random
 # print(matkhau)
 
 #6
-a = random.shuffle(["hoc","lap","trinh","python","rat","vui"])
-print(a)
+# cau = input("Nhập câu: ")
+# ds_tu = cau.split()
+# random.shuffle(ds_tu)
+# print("Kết quả xáo trộn:", " ".join(ds_tu))
+
+#7
+# import string
+# n = int(input("Nhập độ dài N: "))
+# kho_ky_tu = string.ascii_lowercase + string.ascii_uppercase + string.digits + "!@#$%^&*"
+# mat_khau = "".join(random.choices(kho_ky_tu, k=n))
+# print("Mật khẩu an toàn:", mat_khau)
